@@ -12,15 +12,15 @@ public class Appointement {
 	public void setDate(String date) {
 		this.date = date;
 	}
-	private int availability;
-	private int numberOfpatient;
-	
-	public int getNumberOfpatient() {
-		return numberOfpatient;
-	}
-	public void setNumberOfpatient(int numberOfpatient) {
-		this.numberOfpatient = numberOfpatient;
-	}
+//	private int availability;
+//	private int numberOfpatient;
+//	
+//	public int getNumberOfpatient() {
+//		return numberOfpatient;
+//	}
+//	public void setNumberOfpatient(int numberOfpatient) {
+//		this.numberOfpatient = numberOfpatient;
+//	}
 
 	public String getDoctorName() {
 		return doctorName;
@@ -29,12 +29,12 @@ public class Appointement {
 		this.doctorName = doctorName;
 	}
 	
-	public int getAvailability() {
-		return availability;
-	}
-	public void setAvailability(int availability) {
-		this.availability = availability;
-	}
+//	public int getAvailability() {
+//		return availability;
+//	}
+//	public void setAvailability(int availability) {
+//		this.availability = availability;
+//	}
 	public Patient getPatient() {
 		return patient;
 	}
@@ -43,9 +43,9 @@ public class Appointement {
 	}
 	@Override
 	public String toString() {
-		return "Appointement [doctorName=" + doctorName + ", patient=" + patient + ", date=" + date + ", availability="
-				+ availability + ", numberOfpatient=" + numberOfpatient + "]";
+		return "Appointement [doctorName=" + doctorName + ", patient=" + patient + ", date=" + date + "]";
 	}
+	
 	
 	
 	

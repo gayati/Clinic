@@ -5,7 +5,7 @@ public class Doctors
 	private String doctorname;
 	private int id;
 	private String specialisation;
-	private int availability;
+	private String availability;
 	private int noOfPatient;
 //	private int noOfAppointement;
 //	
@@ -24,11 +24,13 @@ public class Doctors
 	public String getDoctorname() {
 		return doctorname;
 	}
+	
 	@Override
 	public String toString() {
 		return "Doctors [doctorname=" + doctorname + ", id=" + id + ", specialisation=" + specialisation
 				+ ", availability=" + availability + ", noOfPatient=" + noOfPatient + "]";
 	}
+
 	public void setDoctorname(String doctorname) {
 		this.doctorname = doctorname;
 	}
@@ -45,10 +47,11 @@ public class Doctors
 	public void setSpecialisation(String specialisation) {
 		this.specialisation = specialisation;
 	}
-	public int getAvailability() {
+	
+	public String getAvailability() {
 		return availability;
 	}
-	public void setAvailability(int availability) {
+	public void setAvailability(String availability) {
 		this.availability = availability;
 	}
 	public int getNoOfPatient() {
